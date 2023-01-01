@@ -69,8 +69,8 @@ onMounted(async () => {
     let motionX, motionY
     if (useGyroscope) {
       const scale = 2 / 30
-      motionX = -1 * (gamma.value || 0) * scale * 10
-      motionY = -1 * ((beta.value - 90) || 0) * scale
+      motionX = (gamma.value || 0) * scale * 10
+      motionY = ((beta.value - 90) || 0) * scale
     } else {
       const scale = 15 / 1000
       motionX = -1 * (mouseX.value - windowWidth.value / 2) * (width / windowWidth.value) * scale

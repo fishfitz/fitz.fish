@@ -8,6 +8,8 @@
     class="fixed w-screen h-screen mix-blend-overlay top-0 left-0 bg-center bg-cover"
     style="background-image: url('/images/homepage/sd/061_texture.webp')"
   />
+  <div class="focus" />
+  <div class="noise" />
   <HomepageCursor />
   <div class="grid h-screen place-items-center text-center text-white">
     <div class="fixed green-shadow p-64 text-focus-in delay-250" />
@@ -33,8 +35,6 @@
       </div>
     </section>
   </div>
-  <div class="focus" />
-  <div class="noise" />
 </template>
 
 <script setup>
