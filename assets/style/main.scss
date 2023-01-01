@@ -1,0 +1,21 @@
+@import './animations.scss';
+@import './effects.scss';
+
+:root {
+  --background: rgb(158, 226, 161);
+}
+
+@font-face {
+  font-family: Fitz;
+  src: url("./assets/fonts/Fitz.ttf");
+}
+
+body {
+  font-family: Fitz, sans-serif;
+  background-color: var(--background);
+  overflow: hidden;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
